@@ -1,0 +1,26 @@
+{
+ "name": "Drizzle",
+ "vendor": "Milliano",
+ "uid": "MDrz",
+ "version": 1100,
+ "so": "drizzle.so",
+ "effect": true,
+ "params": "params.json",
+ "layout": "layout.conf",
+ "art": "html",
+ "tile": "art/tile.png",
+ "skin_post": "skin_post.py",
+ "programs": {"param": "preset"},
+ "build": {
+  "root": "../..",
+  "sources": [
+   "ports/drizzle/src/drizzle_engine.cpp"
+  ],
+  "cflags": ["-Iports/drizzle/dsp"],
+  "cflags_arm": ["-O3", "-mfpu=neon-vfpv4", "-funsafe-math-optimizations", "-fno-math-errno"],
+  "libs": [
+   "-lm",
+   "-lpthread"
+  ]
+ }
+}

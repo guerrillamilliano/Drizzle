@@ -1,0 +1,1 @@
+{"plugin":"/tmp/drizzle.so","instrument":0,"open_ms":1.2,"p99_pct":11.7,"max_pct":27.5,"threads_pct":0.0,"verdict":"PASS"}

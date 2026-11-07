@@ -1,0 +1,720 @@
+{
+ "name": "Drizzle",
+ "params": [
+  {
+   "key": "drizzle",
+   "name": "Drizzle",
+   "min": 0,
+   "max": 100,
+   "default": 100.0,
+   "unit": "%",
+   "dynamic_display": true
+  },
+  {
+   "key": "tone",
+   "name": "Tone",
+   "min": 0,
+   "max": 100,
+   "default": 100.0,
+   "unit": "%",
+   "dynamic_display": true
+  },
+  {
+   "key": "grit",
+   "name": "Grit",
+   "min": 0,
+   "max": 100,
+   "default": 25.0,
+   "unit": "%",
+   "dynamic_display": true
+  },
+  {
+   "key": "swirl",
+   "name": "Swirl",
+   "min": 0,
+   "max": 100,
+   "default": 15.0,
+   "unit": "%",
+   "dynamic_display": true
+  },
+  {
+   "key": "space",
+   "name": "Space",
+   "min": 0,
+   "max": 100,
+   "default": 18.0,
+   "unit": "%",
+   "dynamic_display": true
+  },
+  {
+   "key": "dly_time",
+   "name": "Delay Time",
+   "min": 0,
+   "max": 1000,
+   "default": 333.0,
+   "unit": "ms",
+   "dynamic_display": true
+  },
+  {
+   "key": "dly_fb",
+   "name": "Feedback",
+   "min": -100,
+   "max": 100,
+   "default": 22.0,
+   "unit": "%",
+   "dynamic_display": true
+  },
+  {
+   "key": "dly_mix",
+   "name": "Delay Mix",
+   "min": 0,
+   "max": 100,
+   "default": 12.0,
+   "unit": "%",
+   "dynamic_display": true
+  },
+  {
+   "key": "air_rate",
+   "name": "Air Rate",
+   "min": 0,
+   "max": 20,
+   "default": 0.0,
+   "unit": "Hz",
+   "dynamic_display": true
+  },
+  {
+   "key": "air_freq",
+   "name": "Air",
+   "min": 0,
+   "max": 100,
+   "default": 89.966,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "air_mix",
+   "name": "Air Mix",
+   "min": 0,
+   "max": 100,
+   "default": 25.0,
+   "unit": "%",
+   "dynamic_display": true
+  },
+  {
+   "key": "preset",
+   "name": "Preset",
+   "options": [
+    "First Pour",
+    "Silk Ribbon",
+    "Front Row",
+    "Velvet",
+    "Honey Glaze",
+    "Daylight",
+    "Whisper",
+    "Dusty Wax",
+    "Phone Line",
+    "Cassette",
+    "Megaphone",
+    "Hot Sauce",
+    "Gravel",
+    "Crate Glue",
+    "Cathedral",
+    "Night Drive",
+    "Echo Alley",
+    "Slapback",
+    "Halo",
+    "Deep Freeze",
+    "Doubler",
+    "Wide Screen",
+    "Seasick",
+    "Flicker"
+   ],
+   "default": 0
+  },
+  {
+   "key": "tone_style",
+   "name": "Tone Style",
+   "options": [
+    "First Pour",
+    "Silk Ribbon",
+    "Front Row",
+    "Velvet",
+    "Honey Glaze",
+    "Daylight",
+    "Whisper",
+    "Dusty Wax",
+    "Phone Line",
+    "Cassette",
+    "Megaphone",
+    "Hot Sauce",
+    "Gravel",
+    "Crate Glue",
+    "Cathedral",
+    "Night Drive",
+    "Echo Alley",
+    "Slapback",
+    "Halo",
+    "Deep Freeze",
+    "Doubler",
+    "Wide Screen",
+    "Seasick",
+    "Flicker"
+   ],
+   "default": 0
+  },
+  {
+   "key": "grit_style",
+   "name": "Grit Style",
+   "options": [
+    "First Pour",
+    "Silk Ribbon",
+    "Front Row",
+    "Velvet",
+    "Honey Glaze",
+    "Daylight",
+    "Whisper",
+    "Dusty Wax",
+    "Phone Line",
+    "Cassette",
+    "Megaphone",
+    "Hot Sauce",
+    "Gravel",
+    "Crate Glue",
+    "Cathedral",
+    "Night Drive",
+    "Echo Alley",
+    "Slapback",
+    "Halo",
+    "Deep Freeze",
+    "Doubler",
+    "Wide Screen",
+    "Seasick",
+    "Flicker"
+   ],
+   "default": 0
+  },
+  {
+   "key": "swirl_style",
+   "name": "Swirl Style",
+   "options": [
+    "First Pour",
+    "Silk Ribbon",
+    "Front Row",
+    "Velvet",
+    "Honey Glaze",
+    "Daylight",
+    "Whisper",
+    "Dusty Wax",
+    "Phone Line",
+    "Cassette",
+    "Megaphone",
+    "Hot Sauce",
+    "Gravel",
+    "Crate Glue",
+    "Cathedral",
+    "Night Drive",
+    "Echo Alley",
+    "Slapback",
+    "Halo",
+    "Deep Freeze",
+    "Doubler",
+    "Wide Screen",
+    "Seasick",
+    "Flicker"
+   ],
+   "default": 0
+  },
+  {
+   "key": "space_style",
+   "name": "Space Style",
+   "options": [
+    "First Pour",
+    "Silk Ribbon",
+    "Front Row",
+    "Velvet",
+    "Honey Glaze",
+    "Daylight",
+    "Whisper",
+    "Dusty Wax",
+    "Phone Line",
+    "Cassette",
+    "Megaphone",
+    "Hot Sauce",
+    "Gravel",
+    "Crate Glue",
+    "Cathedral",
+    "Night Drive",
+    "Echo Alley",
+    "Slapback",
+    "Halo",
+    "Deep Freeze",
+    "Doubler",
+    "Wide Screen",
+    "Seasick",
+    "Flicker"
+   ],
+   "default": 0
+  },
+  {
+   "key": "eq_hpf",
+   "name": "Low Cut",
+   "min": 0,
+   "max": 100,
+   "default": 20.946,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_ls_f",
+   "name": "Low Shelf Freq",
+   "min": 0,
+   "max": 100,
+   "default": 33.333,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_ls_q",
+   "name": "Low Shelf Q",
+   "min": 0.1,
+   "max": 5,
+   "default": 0.7,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_ls_g",
+   "name": "Low Shelf Gain",
+   "min": -24,
+   "max": 24,
+   "default": 0.0,
+   "unit": "dB",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_b1_f",
+   "name": "Bell 1 Freq",
+   "min": 0,
+   "max": 100,
+   "default": 40.137,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_b1_q",
+   "name": "Bell 1 Q",
+   "min": 0.1,
+   "max": 5,
+   "default": 1.3,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_b1_g",
+   "name": "Bell 1 Gain",
+   "min": -24,
+   "max": 24,
+   "default": -2.5,
+   "unit": "dB",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_b2_f",
+   "name": "Bell 2 Freq",
+   "min": 0,
+   "max": 100,
+   "default": 71.538,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_b2_q",
+   "name": "Bell 2 Q",
+   "min": 0.1,
+   "max": 5,
+   "default": 1.0,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_b2_g",
+   "name": "Bell 2 Gain",
+   "min": -24,
+   "max": 24,
+   "default": 1.0,
+   "unit": "dB",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_b3_f",
+   "name": "Bell 3 Freq",
+   "min": 0,
+   "max": 100,
+   "default": 80.499,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_b3_q",
+   "name": "Bell 3 Q",
+   "min": 0.1,
+   "max": 5,
+   "default": 1.2,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_b3_g",
+   "name": "Bell 3 Gain",
+   "min": -24,
+   "max": 24,
+   "default": 1.0,
+   "unit": "dB",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_hs_f",
+   "name": "High Shelf Freq",
+   "min": 0,
+   "max": 100,
+   "default": 91.345,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_hs_q",
+   "name": "High Shelf Q",
+   "min": 0.1,
+   "max": 5,
+   "default": 0.7,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_hs_g",
+   "name": "High Shelf Gain",
+   "min": -24,
+   "max": 24,
+   "default": 1.5,
+   "unit": "dB",
+   "dynamic_display": true
+  },
+  {
+   "key": "eq_lpf",
+   "name": "High Cut",
+   "min": 0,
+   "max": 100,
+   "default": 100.0,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "gr_drive",
+   "name": "Drive",
+   "min": -40,
+   "max": 40,
+   "default": 4.0,
+   "unit": "dB",
+   "dynamic_display": true
+  },
+  {
+   "key": "gr_pos_in",
+   "name": "Push +",
+   "min": -20,
+   "max": 60,
+   "default": 0.0,
+   "unit": "dB",
+   "dynamic_display": true
+  },
+  {
+   "key": "gr_neg_in",
+   "name": "Push -",
+   "min": -20,
+   "max": 60,
+   "default": -2.0,
+   "unit": "dB",
+   "dynamic_display": true
+  },
+  {
+   "key": "gr_pos_out",
+   "name": "Out +",
+   "min": -20,
+   "max": 60,
+   "default": -10.0,
+   "unit": "dB",
+   "dynamic_display": true
+  },
+  {
+   "key": "gr_neg_out",
+   "name": "Out -",
+   "min": -20,
+   "max": 60,
+   "default": -8.0,
+   "unit": "dB",
+   "dynamic_display": true
+  },
+  {
+   "key": "gr_trim",
+   "name": "Trim",
+   "min": -20,
+   "max": 60,
+   "default": 0.0,
+   "unit": "dB",
+   "dynamic_display": true
+  },
+  {
+   "key": "gr_cut",
+   "name": "Grit Cut",
+   "min": 0,
+   "max": 100,
+   "default": 95.835,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "sw_delay",
+   "name": "Swirl Delay",
+   "min": 0,
+   "max": 30,
+   "default": 11.0,
+   "unit": "ms",
+   "dynamic_display": true
+  },
+  {
+   "key": "sw_depth",
+   "name": "Swirl Depth",
+   "min": 0,
+   "max": 100,
+   "default": 25.0,
+   "unit": "%",
+   "dynamic_display": true
+  },
+  {
+   "key": "sw_width",
+   "name": "Swirl Width",
+   "min": 0,
+   "max": 180,
+   "default": 0.0,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "sw_rate1",
+   "name": "LFO 1 Rate",
+   "min": 0,
+   "max": 20,
+   "default": 0.35,
+   "unit": "Hz",
+   "dynamic_display": true
+  },
+  {
+   "key": "sw_rate2",
+   "name": "LFO 2 Rate",
+   "min": 0,
+   "max": 20,
+   "default": 0.21,
+   "unit": "Hz",
+   "dynamic_display": true
+  },
+  {
+   "key": "sw_rate3",
+   "name": "LFO 3 Rate",
+   "min": 0,
+   "max": 20,
+   "default": 0.0,
+   "unit": "Hz",
+   "dynamic_display": true
+  },
+  {
+   "key": "sw_shape1",
+   "name": "LFO 1 Shape",
+   "options": [
+    "SINE",
+    "SAW",
+    "TRI"
+   ],
+   "default": 0
+  },
+  {
+   "key": "sw_shape2",
+   "name": "LFO 2 Shape",
+   "options": [
+    "SINE",
+    "SAW",
+    "TRI"
+   ],
+   "default": 2
+  },
+  {
+   "key": "sw_shape3",
+   "name": "LFO 3 Shape",
+   "options": [
+    "SINE",
+    "SAW",
+    "TRI"
+   ],
+   "default": 0
+  },
+  {
+   "key": "sw_filter",
+   "name": "Swirl Filter",
+   "options": [
+    "OFF",
+    "LOW CUT",
+    "HIGH CUT"
+   ],
+   "default": 1
+  },
+  {
+   "key": "sw_freq",
+   "name": "Swirl Filter Freq",
+   "min": 0,
+   "max": 100,
+   "default": 34.713,
+   "unit": "",
+   "dynamic_display": true
+  },
+  {
+   "key": "sp_pre",
+   "name": "Pre-Delay",
+   "min": 0,
+   "max": 100,
+   "default": 20.0,
+   "unit": "ms",
+   "dynamic_display": true
+  },
+  {
+   "key": "sp_size",
+   "name": "Size",
+   "min": 0,
+   "max": 100,
+   "default": 40.0,
+   "unit": "%",
+   "dynamic_display": true
+  },
+  {
+   "key": "sp_decay",
+   "name": "Decay",
+   "min": 0,
+   "max": 100,
+   "default": 40.0,
+   "unit": "%",
+   "dynamic_display": true
+  },
+  {
+   "key": "sp_density",
+   "name": "Density",
+   "min": 0,
+   "max": 100,
+   "default": 75.0,
+   "unit": "%",
+   "dynamic_display": true
+  },
+  {
+   "key": "sp_damp",
+   "name": "Damping",
+   "min": 0,
+   "max": 100,
+   "default": 40.0,
+   "unit": "%",
+   "dynamic_display": true
+  },
+  {
+   "key": "sp_late",
+   "name": "Late Mix",
+   "min": 0,
+   "max": 100,
+   "default": 80.0,
+   "unit": "%",
+   "dynamic_display": true
+  },
+  {
+   "key": "sp_tone",
+   "name": "Space Tone",
+   "min": 0,
+   "max": 100,
+   "default": 65.0,
+   "unit": "%",
+   "dynamic_display": true
+  },
+  {
+   "key": "preset_prev",
+   "name": "Previous Preset",
+   "momentary": true,
+   "step_of": "preset",
+   "step_delta": -1
+  },
+  {
+   "key": "preset_next",
+   "name": "Next Preset",
+   "momentary": true,
+   "step_of": "preset",
+   "step_delta": 1
+  },
+  {
+   "key": "tone_style_prev",
+   "name": "Previous Tone Style",
+   "momentary": true,
+   "step_of": "tone_style",
+   "step_delta": -1
+  },
+  {
+   "key": "tone_style_next",
+   "name": "Next Tone Style",
+   "momentary": true,
+   "step_of": "tone_style",
+   "step_delta": 1
+  },
+  {
+   "key": "grit_style_prev",
+   "name": "Previous Grit Style",
+   "momentary": true,
+   "step_of": "grit_style",
+   "step_delta": -1
+  },
+  {
+   "key": "grit_style_next",
+   "name": "Next Grit Style",
+   "momentary": true,
+   "step_of": "grit_style",
+   "step_delta": 1
+  },
+  {
+   "key": "swirl_style_prev",
+   "name": "Previous Swirl Style",
+   "momentary": true,
+   "step_of": "swirl_style",
+   "step_delta": -1
+  },
+  {
+   "key": "swirl_style_next",
+   "name": "Next Swirl Style",
+   "momentary": true,
+   "step_of": "swirl_style",
+   "step_delta": 1
+  },
+  {
+   "key": "space_style_prev",
+   "name": "Previous Space Style",
+   "momentary": true,
+   "step_of": "space_style",
+   "step_delta": -1
+  },
+  {
+   "key": "space_style_next",
+   "name": "Next Space Style",
+   "momentary": true,
+   "step_of": "space_style",
+   "step_delta": 1
+  },
+  {
+   "key": "level",
+   "name": "Level",
+   "min": -12,
+   "max": 12,
+   "default": 3.5,
+   "unit": "dB",
+   "dynamic_display": true
+  }
+ ]
+}
